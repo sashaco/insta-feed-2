@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<title> Instragram Feed Layout Utilizing Bootstrap</title>
+
+</head>
+
+<body>
+  
+ 
+  <!-- Top Nav with Brand, post creation button and drop down on menu -->
+  
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand logotext"><img src="https://img.icons8.com/ios/1600/instagram-new.png" > Instagram</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+     </ul>
+    
+    <!-- Button on nav whick on cliks to modal -->
+    
+    <button type="button" class="btn btn-success float-right" data-toggle="modal" data-target="#exampleModalCenter">Create a new post</button></ul>
+    
+ <div class="navbar navbar-expand-lg navbar-light bg-light ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-cog"></i>
+        </a>
+        
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a> 
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div class="dropdown-divider"></div>
+             <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+  </div>
+</nav>
+
+
+  
+   <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      
+      <div class="modal-footer">
+          <div><i class="fas fa-camera"></i> <i class="fas fa-map-marker-alt"></i></div>
+       <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Publish</button> 
+      </div>
+    </div>
+  </div>
+</div> 
+	
+
+<!-- Pills tab -->
+  
+   <div class="container">
+    <ul class="nav nav-pills mb-3 justify-content-center " id="pills-tab" role="tablist">
+  <li class="nav-item ">
+    <a class="nav-link active fas fa-th" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" ></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link fas fa-square" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"></a>
+  </li>
+  
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> 
+  
+  <!-- first tab in pill data--> 
+  
+  <!-- instahome tile-->   
+
+	<div class="container-fluid text-center">
+  <div class="row">
+   
+    <div class="col-4 mb-3 pr-0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnRKQ7ihIJdqz0fFGy7DnAGVNTYBRtrTXouteyLWdTDIFZsTK4Mg"  >
+    </div>
+    <div class="col-4 mb-3 pr-0">
+      <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz7yI_wzIFhV4M0Lt6aUJ1SMjVDg7RgvWGQmZaYlWocwF9V46EsA" >
+    </div>
+    <div class="col-4 mb-3 pr-0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKp9TNrpv4psN7TwleBrcVNa9LEt2BgG4dI4qCEgoksTlX6AySPg" >
+    </div>
+    
+    <div class="col-4 mb-3 pr-0">
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/53/1c/7b/green-turtle-balicasag.jpg"  >
+    </div>
+    <div class="col-4 mb-3 pr-0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA4LDneZNf4q9DGB7vDkeiqKWOkIdDfyJY1NCQkK33ucB_xaxi"  >
+    </div>
+    <div class="col-4 mb-3 pr-0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTham_eq1pOxo17wROanLOP9JyLuUa_-J91iSsh-zDJpVm9qId3" >
+    </div>
+    <div class="col-4 mb-3 pr-0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnawpE3BTUpXeRXqbgXVBvocs-3zEMejJxcHdJQCnnKBxCG4od0A" >
+    </div>
+    <div class="col-4 mb-3 pr-0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Nln1HYypLXxHmTNi6k2G9DHLqqhhL06s36ZyviW0zbI2cEEu">
+    </div>
+    <div class="col-4 mb-3 pr-0">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRXWfbEqeh5gcg1d83gf1qdbUaA8eGpgpNKJ7GBpaYM-ca0Y1i" >
+    </div>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Second tab in pill data--> 
+  
+  
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    
+    <!-- Card placed here in second pill tab--> 
+    
+<div class="container-fluid  mx-auto" style="width: 400px">
+  <div class-"row">
+    <div class="col mb-4">
+  <div class="card" style="width: 21rem;" data-target="#instafeed">
+    <h5 class="card-title">My First Photo <div class="float-right">12/13</div> </h5>
+    
+  <img class="card-img-top" src="https://media-cdn.tripadvisor.com/media/photo-s/02/53/1c/7b/green-turtle-balicasag.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text"><b>100 Likes</b><p>This is my first photo of the feed.This is a multi-line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong></p>
+    <p><i class="far fa-heart"></i> Comment <i class="fas fa-ellipsis-v float-right"></i></p>
+  </div>
+</div>	
+</div>
+</div>
+<div class-"row">
+    <div class="col mb-4">
+  <div class="card" style="width: 21rem;" data-target="#instafeed">
+    <h5 class="card-title">My Second Photo <div class="float-right">12/14</div> </h5>
+    
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Nln1HYypLXxHmTNi6k2G9DHLqqhhL06s36ZyviW0zbI2cEEu" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text"><b>100 Likes</b><p>This is my first photo of the feed.This is a multi-line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong></p>
+    <p><i class="far fa-heart"></i> Comment <i class="fas fa-ellipsis-v float-right"></i></p>
+  </div>
+</div>	
+</div>
+</div>
+	</p>
+    
+<div class-"row">
+    <div class="col mb-4">
+  <div class="card" style="width: 21rem;" data-target="#instafeed">
+    <h5 class="card-title">My Third Photo <div class="float-right">12/15</div> </h5>
+    
+  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnawpE3BTUpXeRXqbgXVBvocs-3zEMejJxcHdJQCnnKBxCG4od0A" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text"><b>100 Likes</b><p>This is my first photo of the feed.This is a multi-line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong></p>
+    <p><i class="far fa-heart"></i> Comment <i class="fas fa-ellipsis-v float-right"></i></p>
+  </div>
+</div>	
+</div>
+</div>
+	</p>
+	</div>
+
+
+    
+    
+    
+  </div>
+
+</div>
+    
+    </div>
+       
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
